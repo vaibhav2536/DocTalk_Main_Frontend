@@ -16,12 +16,12 @@ export default function Patient() {
 			<ToastContainer />
 			<NavbarPatient />
 			<Routes>
-				<Route path='/Doctalk_Main_Frontend/' element={<PatientAppointment />} />
-				<Route path='/Doctalk_Main_Frontend/profile' element={<ProfilePatient />} />
-				<Route path='/Doctalk_Main_Frontend/doctorlist' element={<DoctorList />} />
-				<Route path='/Doctalk_Main_Frontend/bookAppointment/:id' element={<BookAppointment />} />
-				<Route path='/Doctalk_Main_Frontend/uploadDocs' element={<UploadDocs />} />
-				<Route path='/Doctalk_Main_Frontend/viewDocs' element={<ViewDocs />} />
+				<Route path='/' element={<PatientAppointment />} />
+				<Route path='/profile' element={<ProfilePatient />} />
+				<Route path='/doctorlist' element={<DoctorList />} />
+				<Route path='/bookAppointment/:id' element={<BookAppointment />} />
+				<Route path='/uploadDocs' element={<UploadDocs />} />
+				<Route path='/viewDocs' element={<ViewDocs />} />
 			</Routes>
 		</UserProvider>
 	);

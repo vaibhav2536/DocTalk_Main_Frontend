@@ -46,7 +46,7 @@ function App() {
             />
 
             <Route path="/Doctalk_Main_Frontend/signup" element={<Signup />} />
-            <Route path="/Doctalk_Main_Frontend*" element={<NotFound />}></Route>
+            <Route path="/*" element={<NotFound />}></Route>
           </Routes>
         </ProfileProvider>
       </BrowserRouter>

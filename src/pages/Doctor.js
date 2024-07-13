@@ -14,10 +14,10 @@ export default function Doctor() {
 			<ToastContainer />
 			<NavbarDoctor />
 			<Routes>
-				<Route path='/Doctalk_Main_Frontend/' element={<DoctorAppointment />} />
-				<Route path='/Doctalk_Main_Frontend/profile' element={<ProfileDoctor />} />
-				<Route path='/Doctalk_Main_Frontend/references' element={<DoctorReferences />} />
-				<Route path='/Doctalk_Main_Frontend/referdoctors/:id' element={<ReferDoctor />} />
+				<Route path='/' element={<DoctorAppointment />} />
+				<Route path='/profile' element={<ProfileDoctor />} />
+				<Route path='/references' element={<DoctorReferences />} />
+				<Route path='/referdoctors/:id' element={<ReferDoctor />} />
 			</Routes>
 		</UserProvider>
 	);

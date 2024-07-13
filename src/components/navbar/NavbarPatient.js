@@ -7,8 +7,9 @@ import { useNavigate } from "react-router-dom";
 export default function NavbarPatient() {
   const navigate = useNavigate();
   const handleLogout = () => {
-    navigate(`/`, { replace: true });
     localStorage.removeItem("doctalk");
+    // navigate(`/Doctalk_Main_Frontend`);
+    window.location.href="/Doctalk_Main_Frontend"
   };
   return (
     <div>

@@ -47,7 +47,7 @@ export default function Signup() {
         if (res.status === 200) {
           // localStorage.setItem('doctalk', res.data.token);
           // window.location.href='/';
-          navigate("/");
+          navigate("/Doctalk_Main_Frontend");
           toast.success("Registered successfully", {
             position: "top-center",
             autoClose: 500,
@@ -65,7 +65,7 @@ export default function Signup() {
         if (res.status === 200) {
           // localStorage.setItem('doctalk', res.data.token);
           // window.location.href='/';
-          navigate("/");
+          navigate("/Doctalk_Main_Frontend");
           toast.success("Registered successfully", {
             position: "top-center",
             autoClose: 500,

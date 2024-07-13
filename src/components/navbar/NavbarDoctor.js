@@ -8,7 +8,8 @@ export default function NavbarDoctor() {
   const navigate = useNavigate();
   const handleLogout = () => {
     localStorage.removeItem("doctalk");
-    navigate(`/`);
+    // navigate(`/Doctalk_Main_Frontend`);
+    window.location.href="/Doctalk_Main_Frontend"
   };
   return (
     <div>
