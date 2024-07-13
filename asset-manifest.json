@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Doctalk_Main_Frontend/static/css/main.b08a2e22.css",
-    "main.js": "/Doctalk_Main_Frontend/static/js/main.0d89003c.js",
+    "main.js": "/Doctalk_Main_Frontend/static/js/main.cda1cee1.js",
     "static/media/patient-login.png": "/Doctalk_Main_Frontend/static/media/patient-login.ab01c698208a6f46ffe6.png",
     "static/media/error.png": "/Doctalk_Main_Frontend/static/media/error.866729c54e518e0113b4.png",
     "static/media/logo.png": "/Doctalk_Main_Frontend/static/media/logo.a8d805d97ea7dfd012c9.png",
@@ -9,10 +9,10 @@
     "static/media/user.png": "/Doctalk_Main_Frontend/static/media/user.0d14c6999b4a5c8e86a7.png",
     "index.html": "/Doctalk_Main_Frontend/index.html",
     "main.b08a2e22.css.map": "/Doctalk_Main_Frontend/static/css/main.b08a2e22.css.map",
-    "main.0d89003c.js.map": "/Doctalk_Main_Frontend/static/js/main.0d89003c.js.map"
+    "main.cda1cee1.js.map": "/Doctalk_Main_Frontend/static/js/main.cda1cee1.js.map"
   },
   "entrypoints": [
     "static/css/main.b08a2e22.css",
-    "static/js/main.0d89003c.js"
+    "static/js/main.cda1cee1.js"
   ]
 }
