@@ -8,7 +8,7 @@ export const AdminRoute = ({ ...routeProps }) => {
 	console.log(user);
 
 	if (!user) {
-		return <Navigate to='/' />;
+		return <Navigate to='/Doctalk_Main_Frontend' />;
 	}
 	return <Route {...routeProps} />;
 };
@@ -18,9 +18,9 @@ export const DoctorRoute = ({ ...routeProps }) => {
 	console.log(useUser());
 
 	if (user && user.role === 'Doctor') {
-		return <Navigate to='/doctor' />;
+		return <Navigate to='/Doctalk_Main_Frontend/doctor' />;
 	} else {
-		<Navigate to='/patient' />;
+		<Navigate to='/Doctalk_Main_Frontend/patient' />;
 	}
 };
 
@@ -29,11 +29,11 @@ export const PrivateRoute = ({ ...routeProps }) => {
 	console.log(profile);
 
 	if (profile && !profile.isPatient) {
-		return <Navigate to='/doctor' />;
+		return <Navigate to='/Doctalk_Main_Frontend/doctor' />;
 	} else if (profile && profile.isPatient) {
-		return <Navigate to='/patient' />;
+		return <Navigate to='/Doctalk_Main_Frontend/patient' />;
 	}
-	return <Navigate to='/' />;
+	return <Navigate to='/Doctalk_Main_Frontend/' />;
 };
 
 export const PublicRoute = ({ children }) => {
@@ -41,9 +41,9 @@ export const PublicRoute = ({ children }) => {
 	console.log(profile);
 
 	if (profile && !profile.isPatient) {
-		return <Navigate to='/doctor' />;
+		return <Navigate to='/Doctalk_Main_Frontend/doctor' />;
 	} else if (profile && profile.isPatient) {
-		return <Navigate to='/patient' />;
+		return <Navigate to='/Doctalk_Main_Frontend/patient' />;
 	}
 	return <div>{children}</div>;
 };
