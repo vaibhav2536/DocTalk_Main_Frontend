@@ -1,0 +1,25 @@
+.modal-body {
+	padding: 1rem !important;
+	max-height: 60vh; /* Set a maximum height for the modal body */
+	overflow-y: auto; /* Add a vertical scrollbar if content overflows */
+}
+
+.heading {
+	font-weight: 500 !important;
+	word-wrap: break-word; /* Ensure text wraps correctly */
+}
+
+.subheadings {
+	font-size: 12px;
+	color: #219f94;
+	word-wrap: break-word; /* Ensure text wraps correctly */
+}
+
+.modal-content {
+	overflow-y: auto;
+}
+
+#info_doc_desc {
+	white-space: pre-wrap; /* Preserve whitespace and wrap text */
+	word-wrap: break-word; /* Ensure long words break to the next line */
+}

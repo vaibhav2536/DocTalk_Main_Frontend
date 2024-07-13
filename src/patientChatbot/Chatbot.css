@@ -1,0 +1,30 @@
+.chatbot-container {
+  position: relative;
+}
+
+.chatbot-toggle-btn {
+  background-color: lightgreen; /* Set the button color to light green */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth color change */
+}
+
+.chatbot-toggle-btn.open {
+  animation: pulse 1s infinite; /* Add animation for open state */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
